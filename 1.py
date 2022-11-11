@@ -3,8 +3,8 @@ import time
 import argparse
 import imutils
 
-net = cv2.dnn.readNetFromTorch(r'C:\Users\dhabr\OneDrive\Desktop\nst_opencv\triangle_style_2000.t7')
-image = cv2.imread(r'C:\Users\dhabr\OneDrive\Desktop\nst_opencv\content_2.jpeg')
+net = cv2.dnn.readNetFromTorch(r'triangle_style_2000.t7')
+image = cv2.imread(r'nst_opencv\content_2.jpeg')
 image = imutils.resize(image, width=600)
 
 (h, w) = image.shape[:2]
