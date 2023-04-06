@@ -6,7 +6,7 @@ import imutils
 import time
 import cv2
 
-modelPath = r'C:\Users\dhabr\OneDrive\Desktop\nst_opencv\starry_night_2500.t7'
+modelPath = r'nst_opencv\starry_night_2500.t7'
 
 net = cv2.dnn.readNetFromTorch(modelPath)
 
